@@ -8,5 +8,10 @@ export function createCourse(request: Request, response: Response) {
     duration: 10,
   });
 
+  CreateCourseService.execute({
+    name: "ReactJS",
+    educator: "Beltrano de Outro",
+  });
+
   return response.send();
 }
