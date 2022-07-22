@@ -1,8 +1,14 @@
 # Testando ambiente TypeScript
 
-- inicializando projeto e instalando express
+- Inicializando projeto e instalando express
 
 ```
 npm init
 npm install express
+```
+
+- Instalando os tipos da biblioteca express
+
+```
+npm install --save-dev @types/express
 ```
