@@ -18,6 +18,7 @@ npm install --save-dev @types/express
 ```
 npm install typescript --save-dev
 npx tsc --init
+npx tsc
 ```
 
 - Configurando o arquivo tsconfig.json para que os arquivos gerados sejam inserido em /dist
