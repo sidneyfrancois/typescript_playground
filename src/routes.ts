@@ -2,7 +2,11 @@ import { Request, Response } from "express";
 import CreateCourseService from "./CreateCourseService";
 
 export function createCourse(request: Request, response: Response) {
-  CreateCourseService.execute("NodeJS", 10, "Fulano");
+  CreateCourseService.execute({
+    name: "NodeJS",
+    educator: "Fulano de Tal",
+    duration: 10,
+  });
 
   return response.send();
 }
